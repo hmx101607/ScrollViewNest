@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93CD3748211FD11E00AF7B47 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CD3747211FD11E00AF7B47 /* AppDelegate.m */; };
+		93CD3750211FD12000AF7B47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93CD374F211FD12000AF7B47 /* Assets.xcassets */; };
+		93CD3753211FD12000AF7B47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93CD3751211FD12000AF7B47 /* LaunchScreen.storyboard */; };
+		93CD3756211FD12000AF7B47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CD3755211FD12000AF7B47 /* main.m */; };
+		93CD3767211FD51700AF7B47 /* HZMenuManagerReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CD375D211FD51600AF7B47 /* HZMenuManagerReusableView.m */; };
+		93CD3768211FD51700AF7B47 /* HZKnowledgeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CD3761211FD51700AF7B47 /* HZKnowledgeTableViewCell.m */; };
+		93CD3769211FD51700AF7B47 /* HZMenuManagerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CD3764211FD51700AF7B47 /* HZMenuManagerView.m */; };
+		93CD376A211FD51700AF7B47 /* HZMenuManagerItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CD3765211FD51700AF7B47 /* HZMenuManagerItem.m */; };
+		93CD376B211FD51700AF7B47 /* HZBaseCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CD3766211FD51700AF7B47 /* HZBaseCollectionView.m */; };
+		93CD3772211FD5C400AF7B47 /* ULBCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CD3771211FD5C400AF7B47 /* ULBCollectionViewFlowLayout.m */; };
+		93CD3775211FD81F00AF7B47 /* HZHomeMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CD3773211FD81F00AF7B47 /* HZHomeMapViewController.m */; };
+		93CD377A211FDC1500AF7B47 /* HZMenuManagerCollectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93CD3776211FDC1400AF7B47 /* HZMenuManagerCollectionView.xib */; };
+		93CD377B211FDC1500AF7B47 /* HZMenuManagerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93CD3777211FDC1400AF7B47 /* HZMenuManagerView.xib */; };
+		93CD377C211FDC1500AF7B47 /* HZMenuManagerItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93CD3778211FDC1500AF7B47 /* HZMenuManagerItem.xib */; };
+		93CD377D211FDC1500AF7B47 /* HZMenuManagerReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93CD3779211FDC1500AF7B47 /* HZMenuManagerReusableView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		93CD3743211FD11E00AF7B47 /* ScrollViewNest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollViewNest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93CD3746211FD11E00AF7B47 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		93CD3747211FD11E00AF7B47 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		93CD374F211FD12000AF7B47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		93CD3752211FD12000AF7B47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		93CD3754211FD12000AF7B47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93CD3755211FD12000AF7B47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		93CD375D211FD51600AF7B47 /* HZMenuManagerReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZMenuManagerReusableView.m; sourceTree = "<group>"; };
+		93CD375E211FD51600AF7B47 /* HZMenuManagerItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZMenuManagerItem.h; sourceTree = "<group>"; };
+		93CD375F211FD51600AF7B47 /* HZMenuManagerReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZMenuManagerReusableView.h; sourceTree = "<group>"; };
+		93CD3760211FD51700AF7B47 /* HZBaseCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZBaseCollectionView.h; sourceTree = "<group>"; };
+		93CD3761211FD51700AF7B47 /* HZKnowledgeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZKnowledgeTableViewCell.m; sourceTree = "<group>"; };
+		93CD3762211FD51700AF7B47 /* HZMenuManagerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZMenuManagerView.h; sourceTree = "<group>"; };
+		93CD3763211FD51700AF7B47 /* HZKnowledgeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZKnowledgeTableViewCell.h; sourceTree = "<group>"; };
+		93CD3764211FD51700AF7B47 /* HZMenuManagerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZMenuManagerView.m; sourceTree = "<group>"; };
+		93CD3765211FD51700AF7B47 /* HZMenuManagerItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZMenuManagerItem.m; sourceTree = "<group>"; };
+		93CD3766211FD51700AF7B47 /* HZBaseCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZBaseCollectionView.m; sourceTree = "<group>"; };
+		93CD3770211FD5C400AF7B47 /* ULBCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ULBCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		93CD3771211FD5C400AF7B47 /* ULBCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ULBCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		93CD3773211FD81F00AF7B47 /* HZHomeMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZHomeMapViewController.m; sourceTree = "<group>"; };
+		93CD3774211FD81F00AF7B47 /* HZHomeMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZHomeMapViewController.h; sourceTree = "<group>"; };
+		93CD3776211FDC1400AF7B47 /* HZMenuManagerCollectionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HZMenuManagerCollectionView.xib; sourceTree = "<group>"; };
+		93CD3777211FDC1400AF7B47 /* HZMenuManagerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HZMenuManagerView.xib; sourceTree = "<group>"; };
+		93CD3778211FDC1500AF7B47 /* HZMenuManagerItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HZMenuManagerItem.xib; sourceTree = "<group>"; };
+		93CD3779211FDC1500AF7B47 /* HZMenuManagerReusableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HZMenuManagerReusableView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93CD3740211FD11E00AF7B47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93CD373A211FD11E00AF7B47 = {
+			isa = PBXGroup;
+			children = (
+				93CD3745211FD11E00AF7B47 /* ScrollViewNest */,
+				93CD3744211FD11E00AF7B47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93CD3744211FD11E00AF7B47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93CD3743211FD11E00AF7B47 /* ScrollViewNest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93CD3745211FD11E00AF7B47 /* ScrollViewNest */ = {
+			isa = PBXGroup;
+			children = (
+				93CD3774211FD81F00AF7B47 /* HZHomeMapViewController.h */,
+				93CD3773211FD81F00AF7B47 /* HZHomeMapViewController.m */,
+				93CD376C211FD57A00AF7B47 /* ULBCollectionViewFlowLayout */,
+				93CD375C211FD50A00AF7B47 /* menuManager */,
+				93CD3746211FD11E00AF7B47 /* AppDelegate.h */,
+				93CD3747211FD11E00AF7B47 /* AppDelegate.m */,
+				93CD374F211FD12000AF7B47 /* Assets.xcassets */,
+				93CD3751211FD12000AF7B47 /* LaunchScreen.storyboard */,
+				93CD3754211FD12000AF7B47 /* Info.plist */,
+				93CD3755211FD12000AF7B47 /* main.m */,
+			);
+			path = ScrollViewNest;
+			sourceTree = "<group>";
+		};
+		93CD375C211FD50A00AF7B47 /* menuManager */ = {
+			isa = PBXGroup;
+			children = (
+				93CD3760211FD51700AF7B47 /* HZBaseCollectionView.h */,
+				93CD3766211FD51700AF7B47 /* HZBaseCollectionView.m */,
+				93CD3763211FD51700AF7B47 /* HZKnowledgeTableViewCell.h */,
+				93CD3761211FD51700AF7B47 /* HZKnowledgeTableViewCell.m */,
+				93CD3776211FDC1400AF7B47 /* HZMenuManagerCollectionView.xib */,
+				93CD375E211FD51600AF7B47 /* HZMenuManagerItem.h */,
+				93CD3765211FD51700AF7B47 /* HZMenuManagerItem.m */,
+				93CD3778211FDC1500AF7B47 /* HZMenuManagerItem.xib */,
+				93CD375F211FD51600AF7B47 /* HZMenuManagerReusableView.h */,
+				93CD375D211FD51600AF7B47 /* HZMenuManagerReusableView.m */,
+				93CD3779211FDC1500AF7B47 /* HZMenuManagerReusableView.xib */,
+				93CD3762211FD51700AF7B47 /* HZMenuManagerView.h */,
+				93CD3764211FD51700AF7B47 /* HZMenuManagerView.m */,
+				93CD3777211FDC1400AF7B47 /* HZMenuManagerView.xib */,
+			);
+			path = menuManager;
+			sourceTree = "<group>";
+		};
+		93CD376C211FD57A00AF7B47 /* ULBCollectionViewFlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				93CD3770211FD5C400AF7B47 /* ULBCollectionViewFlowLayout.h */,
+				93CD3771211FD5C400AF7B47 /* ULBCollectionViewFlowLayout.m */,
+			);
+			path = ULBCollectionViewFlowLayout;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93CD3742211FD11E00AF7B47 /* ScrollViewNest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93CD3759211FD12000AF7B47 /* Build configuration list for PBXNativeTarget "ScrollViewNest" */;
+			buildPhases = (
+				93CD373F211FD11E00AF7B47 /* Sources */,
+				93CD3740211FD11E00AF7B47 /* Frameworks */,
+				93CD3741211FD11E00AF7B47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScrollViewNest;
+			productName = ScrollViewNest;
+			productReference = 93CD3743211FD11E00AF7B47 /* ScrollViewNest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93CD373B211FD11E00AF7B47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = mason;
+				TargetAttributes = {
+					93CD3742211FD11E00AF7B47 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 93CD373E211FD11E00AF7B47 /* Build configuration list for PBXProject "ScrollViewNest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93CD373A211FD11E00AF7B47;
+			productRefGroup = 93CD3744211FD11E00AF7B47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93CD3742211FD11E00AF7B47 /* ScrollViewNest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93CD3741211FD11E00AF7B47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93CD377D211FDC1500AF7B47 /* HZMenuManagerReusableView.xib in Resources */,
+				93CD3753211FD12000AF7B47 /* LaunchScreen.storyboard in Resources */,
+				93CD377A211FDC1500AF7B47 /* HZMenuManagerCollectionView.xib in Resources */,
+				93CD3750211FD12000AF7B47 /* Assets.xcassets in Resources */,
+				93CD377C211FDC1500AF7B47 /* HZMenuManagerItem.xib in Resources */,
+				93CD377B211FDC1500AF7B47 /* HZMenuManagerView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93CD373F211FD11E00AF7B47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93CD3756211FD12000AF7B47 /* main.m in Sources */,
+				93CD3767211FD51700AF7B47 /* HZMenuManagerReusableView.m in Sources */,
+				93CD3772211FD5C400AF7B47 /* ULBCollectionViewFlowLayout.m in Sources */,
+				93CD3769211FD51700AF7B47 /* HZMenuManagerView.m in Sources */,
+				93CD3768211FD51700AF7B47 /* HZKnowledgeTableViewCell.m in Sources */,
+				93CD376B211FD51700AF7B47 /* HZBaseCollectionView.m in Sources */,
+				93CD3748211FD11E00AF7B47 /* AppDelegate.m in Sources */,
+				93CD3775211FD81F00AF7B47 /* HZHomeMapViewController.m in Sources */,
+				93CD376A211FD51700AF7B47 /* HZMenuManagerItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		93CD3751211FD12000AF7B47 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93CD3752211FD12000AF7B47 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93CD3757211FD12000AF7B47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		93CD3758211FD12000AF7B47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93CD375A211FD12000AF7B47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZG6FYMRQ49;
+				INFOPLIST_FILE = ScrollViewNest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ScrollViewNest.iphone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		93CD375B211FD12000AF7B47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZG6FYMRQ49;
+				INFOPLIST_FILE = ScrollViewNest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ScrollViewNest.iphone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93CD373E211FD11E00AF7B47 /* Build configuration list for PBXProject "ScrollViewNest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93CD3757211FD12000AF7B47 /* Debug */,
+				93CD3758211FD12000AF7B47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93CD3759211FD12000AF7B47 /* Build configuration list for PBXNativeTarget "ScrollViewNest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93CD375A211FD12000AF7B47 /* Debug */,
+				93CD375B211FD12000AF7B47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93CD373B211FD11E00AF7B47 /* Project object */;
+}
