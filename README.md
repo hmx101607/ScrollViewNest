@@ -8,6 +8,7 @@
 
 #### 具体过程如图：
 <image src = "http://7qnbrb.com1.z0.glb.clouddn.com/scrollviewNest.gif"  width=320>
+![](http://7qnbrb.com1.z0.glb.clouddn.com/scrollviewNest.gif)
 
 ## 问题
 实现这一功能，只能通过UIScrollView的嵌套或者UIView中添加UIScrollView方式（我能想到的，有更好的做法，可以留言指出）
