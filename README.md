@@ -126,8 +126,7 @@
 }
 
 ~~~
-
-[传送门](https://github.com/hmx101607/ScrollViewNest)
+这里是阐述比较核心的几个方法，具体的使用，可以下载demo : [传送门](https://github.com/hmx101607/ScrollViewNest)
 
  
 
