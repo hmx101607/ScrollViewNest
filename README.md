@@ -7,6 +7,8 @@
 + 在向下拖动时，子视图全部展示在顶部时，才允许外部视图向下滚动  
 
 #### 具体过程如图：
+
+<image src = "http://7qnbrb.com1.z0.glb.clouddn.com/scrollviewNest.gif"  width=320>
 ![](http://7qnbrb.com1.z0.glb.clouddn.com/scrollviewNest.gif)
 
 ## 问题
