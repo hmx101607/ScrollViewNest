@@ -17,10 +17,13 @@
 在一般的情况下，只有UIScrollView及其子类才具备滚动的功能，不管是**UIScrollView的嵌套**还是在普通的**UIView中添加UIScrollView**，都会出现冲突
 
 ## 方案
+~~~
 采用UIView中添加UICollectionView,然后给UICollectionView添加手势，通过位置，拦截事件响应的对象。
+~~~
 
 ## 实现
-这里需要用到两个重要的概念（非常关键）
++ 这里需要用到两个重要的概念（非常关键）
+
 ~~~
 1.这个是UIView关于手势事件的拓展方法，返回值为NO时，表示不触发手势事件，该方法在此处运用时，即禁掉自定义添加的拖动手势，响应UICollecionView的滚动手势，我们可以在这个方法中获取到view的当前位置，以及手势的方向，根据这两个因素，就可以决定是否响应事件了
 - (BOOL)gestureRecognizerShouldBegin:(UIGestureRecognizer *)gestureRecognizer {
@@ -57,7 +60,8 @@
 - (BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldRecognizeSimultaneouslyWithGestureRecognizer:(UIGestureRecognizer *)otherGestureRecognizer
 ~~~
 
-在自定义的手势事件中，根据手势的状态，滚动方向以及位置来处理视图的frame，在项目中还配合了一个拖动的小按钮，所以在方法中，还有一个回调的事件
++ 在自定义的手势事件中，根据手势的状态，滚动方向以及位置来处理视图的frame，在项目中还配合了一个拖动的小按钮，所以在方法中，还有一个回调的事件
+
 ~~~
 
 - (void)moveView:(UIPanGestureRecognizer *)recognizer {
@@ -124,6 +128,5 @@
 [传送门](https://github.com/hmx101607/ScrollViewNest)
 
  
-
 
 
